@@ -1,0 +1,79 @@
+
+.vysledky {
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    gap: 2rem;
+}
+.tabula {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.tabula h2 {
+    text-align: center;
+}
+.tabula img {
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.buttons {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+/* zapasy */
+
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+  }
+
+  .slider-wrapper .nadpis {
+    text-align: center;
+  }
+  
+  .slides-container {
+    height: auto;
+    /* height: calc(100vh - 2rem); */
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+
+    .slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+  }
+  
+  .buttons {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box2 {
+    position: relative;
+    text-align: center;
+  }
+
+  .box2 img {
+    width: 80%;
+    border-radius: 1rem;
+  }
+
