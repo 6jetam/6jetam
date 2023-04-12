@@ -1,0 +1,90 @@
+header {
+    min-height: 100vh;
+    background-image: url(../img/—Pngtree—ice\ hockey\ golakeeper\ illustration_6075163.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15.75rem;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.main-nav {
+    width: 100vw;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index:2 ;
+    background: rgba(0,0,0, 0.7);
+}
+
+
+.main-nav .menu {
+    font-size: clamp(1.35rem, 6vw, 2rem);
+    line-height: 1;
+    margin-left: 0.4rem;
+
+    display: flex;
+    gap: clamp(0.85rem, 4vw, 2rem);
+    
+}
+    
+
+.man-nav a {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.main-nav li{
+    display: flex;
+    align-items: center;
+}
+
+.main-nav li:hover {
+    color: red;
+}
+
+.main-nav .mask {
+    width: 3rem;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+
+}
+.main-nav .nhl{
+    width: 3rem;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+    /* z-index: 7; */
+
+}
+
+
+.main-nav li:last-child {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 905px) {
+    .title,
+    .glove {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    .main-nav .nhl,.mask {
+        display:inline-block;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    /* header{
+     background-position: 50% 50%;   
+    } */
+    .main-nav .nhl,.mask {
+        display: none;
+    }
+}
+    

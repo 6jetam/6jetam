@@ -1,0 +1,56 @@
+.feature {
+    margin-bottom: 4rem;
+    display: flex;
+    align-items:flex-start;
+    gap: 3vw;
+    margin: 2rem 0;
+    padding: 5rem 0;
+    border-right: 0.75rem solid blue;
+}
+
+.feature h2 {
+    color: blue;
+}
+
+.feature .content {
+    position: relative;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.feature:nth-child(even) {
+    color: ;
+    background-color: grey;
+    flex-direction: row-reverse;
+    border-left: 0.75rem solid yellow;
+    border-right: none;
+}
+
+
+.feature:not(.wishlist) .content {
+    position: relative;
+    bottom: 2rem;
+}
+/* responsive */
+
+@media screen and  (min-width: 810px) {
+    
+
+    .feature {
+        margin-bottom: 3rem;
+        display: flex;
+        align-items:center;
+        gap: 1.5vw;
+
+        padding: 2rem 0;
+        border-right: 0.55rem solid red;
+    }
+
+    .feature figure {
+        flex:7;
+    }
+    .feature .content {
+        flex:3;
+        position: static;
+    }
+
+}
